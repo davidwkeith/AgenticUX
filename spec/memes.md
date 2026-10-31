@@ -33,3 +33,4 @@ Links go to Wikipedia where it has a page, and to the original work otherwise. M
 | 25 | Works for you | [Alfred Pennyworth](https://en.wikipedia.org/wiki/Alfred_Pennyworth), not [HAL 9000](https://en.wikipedia.org/wiki/HAL_9000) | Loyal to you, not the mission. "I'm sorry, Dave" is the anti-pattern. |
 | 26 | Craftsman style | "Have nothing in your houses that you do not know to be useful or believe to be beautiful." [William Morris](https://en.wikipedia.org/wiki/William_Morris) | Every pixel earns its place; the hearth gets the spotlight. |
 | 27 | Adaptive personality | "Babel fish" in [*The Hitchhiker's Guide to the Galaxy*](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) | Translates so each mind is understood on its own terms. |
+| 28 | Human rights | [Eleanor Roosevelt](https://en.wikipedia.org/wiki/Eleanor_Roosevelt) holding the Declaration | The rights win. |
