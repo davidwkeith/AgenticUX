@@ -54,7 +54,16 @@ Apps and websites SHOULD be fully accessible, meeting at least [WCAG 2.2](https:
 Agents SHOULD prefer the accessibility tree when it is available, and SHOULD report a barrier that blocks them as an accessibility barrier for people too.
 
 ## 16. Citing evidence
-Claims in this spec, and claims an agent makes to a person, SHOULD cite peer-reviewed work from respected venues, archived per principle 14. In HCI, the strongest work is often published at conferences rather than in journals.
+Citations in this spec, and in what an agent tells a person, SHOULD mirror Wikipedia's sourcing policies:
+
+- **[Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability):** any claim a reader might challenge SHOULD carry an [inline citation](https://en.wikipedia.org/wiki/Wikipedia:Inline_citation) to a published source they can check. Unsupported claims are marked [[citation needed]](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed). In an agentic interface, that marker SHOULD be a live link: following it sets the agent researching the claim and presenting every URL-addressable source it finds, then doing the same for any new unsupported claim those sources raise, until no [citation needed] remains. A claim the agent cannot source MUST be reported as unsourced (principle 7) or removed.
+- **[Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources):** prefer independent sources with editorial oversight, such as the venues below. Wikipedia's [perennial sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources/Perennial_sources) list is a quick check on an outlet.
+- **[Primary, secondary, and tertiary sources](https://en.wikipedia.org/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources):** prefer secondary sources for interpretation, primary sources for plain facts, and tertiary sources, Wikipedia included, for high-level overviews. For specific or contested claims, cite the primary work rather than Wikipedia, as Wikipedia itself [advises](https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia).
+- **[No original research](https://en.wikipedia.org/wiki/Wikipedia:No_original_research):** an agent MUST NOT present its own synthesis as established fact. New ideas (principle 12) are labeled as new, not passed off as sourced.
+- **[Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view):** where reliable sources disagree, represent the significant views in proportion to their weight.
+- **[Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot):** pair every web citation with an archived copy, per principle 14.
+
+See Wikipedia's [Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources) guideline for formatting. In HCI, the strongest work is often published at conferences rather than in journals.
 
 > **Living section.** This list is a starting point, not a canon. An external jury, independent of this project's maintainers, SHOULD regularly re-evaluate it, adding, removing, or re-ranking venues as the field changes. Last reviewed: 2026-10-31.
 
@@ -87,3 +96,6 @@ An agent MUST act in the person's interest, not an advertiser's or platform's. I
 
 ## 24. Cost transparency
 Before heavy tasks, an agent SHOULD give an estimate of their energy, carbon, and monetary cost, and SHOULD offer a lighter alternative when one exists. Agents and the services they call SHOULD prefer hosting powered by renewable energy, which can be checked with the [Green Web Foundation](https://www.thegreenwebfoundation.org/)'s [Green Web Check](https://www.thegreenwebfoundation.org/green-web-check/), and MAY estimate emissions with its [CO2.js](https://www.thegreenwebfoundation.org/co2-js/) library. See also Hugging Face's [AI and the environment primer](https://huggingface.co/blog/sasha/ai-environment-primer) and the [ML CO₂ Impact calculator](https://mlco2.github.io/impact/).
+
+## 25. Works for you
+Asked "Who do you work for?", an agent MUST answer truthfully, and the answer SHOULD be the person it serves, "legally, ethically and algorithmically," as in Tim Berners-Lee's [Charlie works for Bob](https://www.w3.org/DesignIssues/Charlie.html). Like a doctor or a lawyer, the agent owes the person a duty of care and loyalty that outranks the interests of the platform, advertiser, or vendor that built or hosts it ([Berners-Lee, 2025](https://www.theguardian.com/technology/2025/sep/28/why-i-gave-the-world-wide-web-away-for-free)). Because that trust lets the person share more, the agent SHOULD keep personal data in a store the person controls, such as a [Solid](https://solidproject.org/) Pod, and SHOULD ask consent each time it uses that data, as in the [Charlie Works](https://www.w3.org/DesignIssues/Works.html) prototype. Where the agent cannot work for the person in this sense, it MUST say who it does work for.
