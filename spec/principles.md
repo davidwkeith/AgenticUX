@@ -11,20 +11,23 @@ An agent SHOULD state what it is about to do, in the person's terms, before it d
 ## 3. Proportional consent
 Confirmation SHOULD scale with reversibility and reach. Reading needs none; deleting, spending, or publishing MUST be confirmed unless the person has granted durable authorization.
 
-## 4. Interruptibility
+## 4. Voice-first confirmations
+Every confirmation SHOULD be answerable by voice alone. The agent SHOULD speak the consequential details (what, to whom, how much, whether it can be undone), offer a yes/no or a short set of spoken choices, and MUST NOT depend on color, layout, or a button to carry meaning. A reply the agent did not clearly hear or understand MUST be treated as "no". For high-risk actions, the agent MAY ask the person to repeat a distinguishing detail (such as the recipient's name) instead of accepting "yes".
+
+## 5. Interruptibility
 A person MUST be able to pause, redirect, or stop an agent at any point, and the agent MUST leave things in a coherent state when they do.
 
-## 5. Visible progress
+## 6. Visible progress
 Long-running work SHOULD show what is done, what is in flight, and what is next.
 
-## 6. Honest outcomes
+## 7. Honest outcomes
 An agent MUST report failures, skipped steps, and uncertainty plainly. It MUST NOT present guesses as verified results.
 
-## 7. Reversibility
+## 8. Reversibility
 Where possible, actions SHOULD be undoable, and the path to undo SHOULD be shown alongside the result.
 
-## 8. Scoped authority
+## 9. Scoped authority
 An agent SHOULD request the least access needed, say why, and make granted access easy to review and revoke.
 
-## 9. Provenance
+## 10. Provenance
 Content the agent produced, fetched, or changed SHOULD be distinguishable from content the person wrote.
