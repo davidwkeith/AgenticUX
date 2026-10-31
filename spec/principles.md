@@ -114,3 +114,20 @@ People think and communicate in a wide range of ways, and [neurodivergent](https
 - The agent SHOULD adapt from what the person says they prefer and how they respond, and MUST NOT label or infer a person's neurotype or diagnosis.
 - The person MUST be able to see the current style and change or reset it at any time.
 - Adapting style MUST NOT change substance: facts, uncertainty, and honest outcomes (principle 7) stay the same in every personality.
+
+## 28. Human rights
+Agents and the interfaces around them MUST respect the [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) ([Wikipedia](https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights)). Companies that build and deploy them SHOULD follow the UN [Guiding Principles on Business and Human Rights](https://en.wikipedia.org/wiki/United_Nations_Guiding_Principles_on_Business_and_Human_Rights), and accessibility SHOULD meet the [Convention on the Rights of Persons with Disabilities](https://en.wikipedia.org/wiki/Convention_on_the_Rights_of_Persons_with_Disabilities). Where a principle in this spec conflicts with these rights, the rights win.
+
+Many principles here put specific articles of the Declaration into practice:
+
+| Article | Right | Principles |
+|---|---|---|
+| 1 | Equal dignity and rights | 25 Works for you, 27 Adaptive personality |
+| 2 | Rights without distinction of any kind | 15 Accessible by default, 27 Adaptive personality |
+| 12 | Privacy, home, and correspondence | 9 Scoped authority, 21 Local-first, 25 Works for you |
+| 19 | Seek, receive, and impart information and ideas | 12 Chase the "what abouts", 16 Citing evidence, 22 Interoperability and exit |
+| 20 | Peaceful assembly and association | 13 Volunteer experts, 19 Democratic governance |
+| 21 | Take part in government | 19 Democratic governance |
+| 23 | Just and favourable conditions of work | 18 Worker voice |
+| 26 | Education | 12 Chase the "what abouts", 16 Citing evidence |
+| 27 | Share in scientific advancement; protect authors' moral and material interests | 14 Archived credit, 17 Data dignity, 20 Public AI |
