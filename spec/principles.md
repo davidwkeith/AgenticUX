@@ -44,6 +44,8 @@ Experts whose credentials have been verified MAY volunteer to answer questions i
 ## 14. Archived credit
 By default, an idea SHOULD be credited with a timestamped URL that the [Internet Archive's Wayback Machine](https://help.archive.org/help/using-the-wayback-machine/) has captured, such as `https://web.archive.org/web/<timestamp>/<url>`. This applies to the person's ideas, to volunteer experts' answers, and to the sources the agent relies on. If no capture exists, the agent SHOULD offer to [save one](https://help.archive.org/help/save-pages-in-the-wayback-machine/) before citing it, and MUST get the person's approval first when the page is theirs.
 
+This principle depends on the [Internet Archive](https://en.wikipedia.org/wiki/Internet_Archive), a nonprofit library that runs on donations. Anyone who relies on archived credit, and especially companies whose agents cite archived pages at scale, SHOULD help fund it: [donate to the Internet Archive](https://archive.org/donate).
+
 ## 15. Accessible by default
 Apps and websites SHOULD be fully accessible, meeting at least [WCAG 2.2](https://www.w3.org/TR/WCAG22/) Level AA. The semantics that serve people using assistive technology (native elements, labels, landmarks, [ARIA](https://www.w3.org/TR/wai-aria-1.2/) roles and states) also let agents navigate through the [accessibility tree](https://developer.mozilla.org/en-US/docs/Glossary/Accessibility_tree) instead of screenshots, which is faster and less error-prone. Native apps SHOULD also follow their platform's guidance and expose their controls through its accessibility API:
 
