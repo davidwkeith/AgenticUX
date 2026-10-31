@@ -71,6 +71,10 @@ Principle 16 keeps a living list of preferred journals and conferences for citin
 
 Every principle links its own sources in [`spec/principles.md`](spec/principles.md).
 
+## Support the Internet Archive
+
+Archived credit (principle 14) depends on the [Internet Archive](https://en.wikipedia.org/wiki/Internet_Archive), and it needs the help. If this spec is useful to you, please [donate](https://archive.org/donate).
+
 ## License
 
 [GPL-3.0](LICENSE)
