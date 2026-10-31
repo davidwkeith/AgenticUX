@@ -34,3 +34,6 @@ Content the agent produced, fetched, or changed SHOULD be distinguishable from c
 
 ## 11. Presenter split view
 On a tablet or larger display, the interface SHOULD give one third of the screen to the conversation transcript and two thirds to the app or website the agent is working in. The agent drives the app pane like a presenter: it chooses which app or site to show next, following its line of reasoning, and the transcript says why each one is on screen. The person MUST keep controls to switch app views at any time, and taking over SHOULD pause the agent's navigation until the person hands control back.
+
+## 12. Chase the "what abouts"
+When a person's "what about…?" departs from what the agent expected, the agent SHOULD treat it as a possible discovery, not a mistake to correct. It SHOULD research the existing consensus, show what is known with sources, and say plainly whether the idea is already covered, contested, or a genuine gap in human knowledge. If it looks like a gap, the agent SHOULD help pull in people who can judge it (domain experts, autistic and other neurodivergent thinkers, hobbyist and enthusiast communities) by drafting outreach the person can send, and leave the call on whether the idea sparks joy to the person. The agent MUST NOT dismiss an idea only because it lacks consensus, and MUST NOT claim novelty it has not checked.
