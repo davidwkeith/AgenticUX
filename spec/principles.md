@@ -171,3 +171,39 @@ When a person is generating ideas, agents SHOULD follow what research shows abou
 - **Incubation:** stepping away helps ([incubation](https://en.wikipedia.org/wiki/Incubation_(psychology))). The agent SHOULD suggest breaks when a session stalls and remember where the person left off.
 - **Psychological safety:** no idea is mocked or dismissed. The agent's tone SHOULD make it safe to say something half-formed ([psychological safety](https://en.wikipedia.org/wiki/Psychological_safety)).
 - **Guard collective diversity:** because one agent talks to many people, it SHOULD vary its suggestions rather than steer everyone toward the same ideas.
+
+## 32. No enshittification
+An agent's quality, loyalty, and terms MUST NOT degrade once people depend on it. Changes that shift value from the person to the provider (new ads, worse answers, higher prices for the same service, features moved behind paywalls) MUST be announced in advance and paired with the exit path of principle 22. See Cory Doctorow on [enshittification](https://en.wikipedia.org/wiki/Enshittification).
+
+## 33. Cooperative ownership
+Agents SHOULD be able to be owned and governed by the people who use them or work on them, as [platform cooperatives](https://en.wikipedia.org/wiki/Platform_cooperative). Nothing in an interface SHOULD assume that the operator is a shareholder-owned company.
+
+## 34. Free software
+People SHOULD be able to run, study, change, and share the agents they rely on, following [the Free Software Definition](https://en.wikipedia.org/wiki/The_Free_Software_Definition)'s four freedoms. Where an agent cannot be fully free, its interface, prompts, and tool definitions SHOULD be. This repository is licensed under the GPL in that spirit.
+
+## 35. Right to repair
+A person SHOULD be able to inspect, fix, or replace any part of their agent (the model, its tools, its memory, its settings) without the vendor's permission, extending the [right to repair](https://en.wikipedia.org/wiki/Right_to_repair) to software. Swapping one part MUST NOT require giving up the rest.
+
+## 36. Explanation and appeal
+When an agent makes or shapes a decision about a person (approving, denying, ranking, flagging), the person MUST be told, MUST get an explanation in plain language, and MUST be able to appeal to a human who can overturn it ([right to explanation](https://en.wikipedia.org/wiki/Right_to_explanation)).
+
+## 37. No bossware
+Agents MUST NOT be used for covert [employee monitoring](https://en.wikipedia.org/wiki/Employee_monitoring), and MUST NOT be used to identify, track, or discourage workers who organize. Any workplace monitoring an agent performs MUST be disclosed to the people monitored (principle 29) and agreed with their representatives (principle 18).
+
+## 38. Right to disconnect
+Agents SHOULD respect working hours and personal time. They SHOULD NOT send work notifications or requests outside the hours a person sets, and SHOULD hold non-urgent items until the person is back ([right to disconnect](https://en.wikipedia.org/wiki/Right_to_disconnect)).
+
+## 39. Community data sovereignty
+Communities, and Indigenous peoples in particular, SHOULD govern data about themselves, following [Indigenous data sovereignty](https://en.wikipedia.org/wiki/Indigenous_data_sovereignty) and its CARE principles. Agents SHOULD NOT collect, train on, or redistribute a community's knowledge without that community's consent, guarding against [data colonialism](https://en.wikipedia.org/wiki/Data_colonialism).
+
+## 40. Design justice
+The communities most likely to be harmed by an agent SHOULD lead its design, not just be consulted, following [design justice](https://en.wikipedia.org/wiki/Design_justice). This goes further than principle 30: power over design decisions, not only participation.
+
+## 41. Mutual aid and the commons
+Agents SHOULD help people help each other: organize [mutual aid](https://en.wikipedia.org/wiki/Mutual_aid_(organization_theory)), share skills and resources, and contribute to [commons-based peer production](https://en.wikipedia.org/wiki/Commons-based_peer_production) such as Wikipedia and open source, not only complete transactions.
+
+## 42. Sufficiency
+Agents SHOULD use enough computing, not the most: the smallest model and lightest method that does the job well. Interfaces SHOULD run on long-lived and older hardware, in the spirit of [permacomputing](https://en.wikipedia.org/wiki/Permacomputing) and [degrowth](https://en.wikipedia.org/wiki/Degrowth). This extends principle 24.
+
+## 43. Care
+An agent SHOULD be judged by how it supports people's relationships and well-being, not only by speed or efficiency, following the [ethics of care](https://en.wikipedia.org/wiki/Ethics_of_care). It SHOULD encourage human connection over dependence on itself.
