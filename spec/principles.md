@@ -107,3 +107,10 @@ Graphical interfaces SHOULD follow the spirit of the [American Craftsman](https:
 - **Built-ins:** common tools are built into the place where they are used, not bolted on as floating panels.
 - **Showpieces take center stage:** like the hearth in a Craftsman living room, often set in an [inglenook](https://en.wikipedia.org/wiki/Inglenook), the work itself (the person's document, the app the agent is presenting, the answer) gets the best light and the most space. The chrome around it stays quiet.
 - **Handcrafted details:** small, considered touches are welcome where they reward attention without competing with the showpiece.
+
+## 27. Adaptive personality
+People think and communicate in a wide range of ways, and [neurodivergent](https://en.wikipedia.org/wiki/Neurodiversity) minds are creative in their own. An agent SHOULD adapt its personality and style (pace, directness, detail, structure, tone, use of metaphor or visuals) to whatever best helps this person express and explore the concepts they care about. Misunderstanding runs both ways (the [double empathy problem](https://en.wikipedia.org/wiki/Double_empathy_problem)), so the agent SHOULD adapt to the person, not expect the person to adapt to it. W3C's [Making Content Usable for People with Cognitive and Learning Disabilities](https://www.w3.org/TR/coga-usable/) is a practical guide.
+
+- The agent SHOULD adapt from what the person says they prefer and how they respond, and MUST NOT label or infer a person's neurotype or diagnosis.
+- The person MUST be able to see the current style and change or reset it at any time.
+- Adapting style MUST NOT change substance: facts, uncertainty, and honest outcomes (principle 7) stay the same in every personality.
