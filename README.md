@@ -12,49 +12,69 @@ Early draft. Expect churn. Issues and PRs welcome.
 
 [`spec/principles.md`](spec/principles.md) holds 43 draft principles, written in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119) language:
 
-1. [Minimal handoff phrases](spec/principles.md#1-minimal-handoff-phrases)
-2. [Legible intent](spec/principles.md#2-legible-intent)
-3. [Proportional consent](spec/principles.md#3-proportional-consent)
-4. [Voice-first confirmations](spec/principles.md#4-voice-first-confirmations)
-5. [Interruptibility](spec/principles.md#5-interruptibility)
-6. [Visible progress](spec/principles.md#6-visible-progress)
-7. [Honest outcomes](spec/principles.md#7-honest-outcomes)
-8. [Reversibility](spec/principles.md#8-reversibility)
-9. [Scoped authority](spec/principles.md#9-scoped-authority)
-10. [Provenance](spec/principles.md#10-provenance)
-11. [Presenter split view](spec/principles.md#11-presenter-split-view)
-12. [Chase the "what abouts"](spec/principles.md#12-chase-the-what-abouts)
-13. [Volunteer experts](spec/principles.md#13-volunteer-experts)
-14. [Archived credit](spec/principles.md#14-archived-credit)
-15. [Accessible by default](spec/principles.md#15-accessible-by-default)
-16. [Citing evidence](spec/principles.md#16-citing-evidence)
-17. [Data dignity](spec/principles.md#17-data-dignity)
-18. [Worker voice](spec/principles.md#18-worker-voice)
-19. [Democratic governance](spec/principles.md#19-democratic-governance)
-20. [Public AI](spec/principles.md#20-public-ai)
-21. [Local-first](spec/principles.md#21-local-first)
-22. [Interoperability and exit](spec/principles.md#22-interoperability-and-exit)
-23. [No dark patterns](spec/principles.md#23-no-dark-patterns)
-24. [Cost transparency](spec/principles.md#24-cost-transparency)
-25. [Works for you](spec/principles.md#25-works-for-you)
-26. [Craftsman style](spec/principles.md#26-craftsman-style)
-27. [Adaptive personality](spec/principles.md#27-adaptive-personality)
-28. [Human rights](spec/principles.md#28-human-rights)
-29. [Privacy in context](spec/principles.md#29-privacy-in-context)
-30. [Nothing about us without us](spec/principles.md#30-nothing-about-us-without-us)
-31. [Creative partnership](spec/principles.md#31-creative-partnership)
-32. [No enshittification](spec/principles.md#32-no-enshittification)
-33. [Cooperative ownership](spec/principles.md#33-cooperative-ownership)
-34. [Free software](spec/principles.md#34-free-software)
-35. [Right to repair](spec/principles.md#35-right-to-repair)
-36. [Explanation and appeal](spec/principles.md#36-explanation-and-appeal)
-37. [No bossware](spec/principles.md#37-no-bossware)
-38. [Right to disconnect](spec/principles.md#38-right-to-disconnect)
-39. [Community data sovereignty](spec/principles.md#39-community-data-sovereignty)
-40. [Design justice](spec/principles.md#40-design-justice)
-41. [Mutual aid and the commons](spec/principles.md#41-mutual-aid-and-the-commons)
-42. [Sufficiency](spec/principles.md#42-sufficiency)
-43. [Care](spec/principles.md#43-care)
+**[Interaction and control](spec/principles.md#interaction-and-control)**
+
+- 1\. [Minimal handoff phrases](spec/principles.md#1-minimal-handoff-phrases)
+- 2\. [Legible intent](spec/principles.md#2-legible-intent)
+- 3\. [Proportional consent](spec/principles.md#3-proportional-consent)
+- 4\. [Voice-first confirmations](spec/principles.md#4-voice-first-confirmations)
+- 5\. [Interruptibility](spec/principles.md#5-interruptibility)
+- 6\. [Visible progress](spec/principles.md#6-visible-progress)
+- 7\. [Honest outcomes](spec/principles.md#7-honest-outcomes)
+- 8\. [Reversibility](spec/principles.md#8-reversibility)
+- 11\. [Presenter split view](spec/principles.md#11-presenter-split-view)
+- 26\. [Craftsman style](spec/principles.md#26-craftsman-style)
+
+**[Accessibility and inclusion](spec/principles.md#accessibility-and-inclusion)**
+
+- 15\. [Accessible by default](spec/principles.md#15-accessible-by-default)
+- 27\. [Adaptive personality](spec/principles.md#27-adaptive-personality)
+- 30\. [Nothing about us without us](spec/principles.md#30-nothing-about-us-without-us)
+- 40\. [Design justice](spec/principles.md#40-design-justice)
+
+**[Knowledge and evidence](spec/principles.md#knowledge-and-evidence)**
+
+- 10\. [Provenance](spec/principles.md#10-provenance)
+- 12\. [Chase the "what abouts"](spec/principles.md#12-chase-the-what-abouts)
+- 13\. [Volunteer experts](spec/principles.md#13-volunteer-experts)
+- 14\. [Archived credit](spec/principles.md#14-archived-credit)
+- 16\. [Citing evidence](spec/principles.md#16-citing-evidence)
+- 31\. [Creative partnership](spec/principles.md#31-creative-partnership)
+
+**[Trust, privacy, and rights](spec/principles.md#trust-privacy-and-rights)**
+
+- 9\. [Scoped authority](spec/principles.md#9-scoped-authority)
+- 23\. [No dark patterns](spec/principles.md#23-no-dark-patterns)
+- 25\. [Works for you](spec/principles.md#25-works-for-you)
+- 28\. [Human rights](spec/principles.md#28-human-rights)
+- 29\. [Privacy in context](spec/principles.md#29-privacy-in-context)
+- 32\. [No enshittification](spec/principles.md#32-no-enshittification)
+- 36\. [Explanation and appeal](spec/principles.md#36-explanation-and-appeal)
+
+**[Ownership and openness](spec/principles.md#ownership-and-openness)**
+
+- 20\. [Public AI](spec/principles.md#20-public-ai)
+- 21\. [Local-first](spec/principles.md#21-local-first)
+- 22\. [Interoperability and exit](spec/principles.md#22-interoperability-and-exit)
+- 33\. [Cooperative ownership](spec/principles.md#33-cooperative-ownership)
+- 34\. [Free software](spec/principles.md#34-free-software)
+- 35\. [Right to repair](spec/principles.md#35-right-to-repair)
+- 39\. [Community data sovereignty](spec/principles.md#39-community-data-sovereignty)
+
+**[Work and community](spec/principles.md#work-and-community)**
+
+- 17\. [Data dignity](spec/principles.md#17-data-dignity)
+- 18\. [Worker voice](spec/principles.md#18-worker-voice)
+- 19\. [Democratic governance](spec/principles.md#19-democratic-governance)
+- 37\. [No bossware](spec/principles.md#37-no-bossware)
+- 38\. [Right to disconnect](spec/principles.md#38-right-to-disconnect)
+- 41\. [Mutual aid and the commons](spec/principles.md#41-mutual-aid-and-the-commons)
+- 43\. [Care](spec/principles.md#43-care)
+
+**[Sustainability](spec/principles.md#sustainability)**
+
+- 24\. [Cost transparency](spec/principles.md#24-cost-transparency)
+- 42\. [Sufficiency](spec/principles.md#42-sufficiency)
 
 [`spec/memes.md`](spec/memes.md) is a sidecar of pop culture references for each principle, for talks and social posts.
 
