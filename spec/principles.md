@@ -52,3 +52,14 @@ Apps and websites SHOULD be fully accessible, meeting at least [WCAG 2.2](https:
 - **Linux:** [GNOME HIG: Accessibility](https://developer.gnome.org/hig/guidelines/accessibility.html), [KDE HIG: Accessibility](https://develop.kde.org/hig/accessibility/), [AT-SPI](https://gnome.pages.gitlab.gnome.org/at-spi2-core/devel-docs/)
 
 Agents SHOULD prefer the accessibility tree when it is available, and SHOULD report a barrier that blocks them as an accessibility barrier for people too.
+
+## 16. Citing evidence
+Claims in this spec, and claims an agent makes to a person, SHOULD cite peer-reviewed work from respected venues, archived per principle 14. In HCI, the strongest work is often published at conferences rather than in journals.
+
+> **Living section.** This list is a starting point, not a canon. An external jury, independent of this project's maintainers, SHOULD regularly re-evaluate it, adding, removing, or re-ranking venues as the field changes. Last reviewed: 2026-10-31.
+
+- **HCI and agentic interfaces:** [CHI](https://dl.acm.org/conference/chi), [ACM TOCHI](https://dl.acm.org/journal/tochi), [PACM HCI](https://dl.acm.org/journal/pacmhci) (CSCW), [UIST](https://dl.acm.org/conference/uist), [IUI](https://dl.acm.org/conference/iui), [International Journal of Human-Computer Studies](https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies)
+- **Accessibility:** [ASSETS](https://dl.acm.org/conference/assets), [ACM TACCESS](https://dl.acm.org/journal/taccess)
+- **General science:** [Nature](https://www.nature.com/nature), [Science](https://www.science.org/journal/science), [PNAS](https://www.pnas.org/), [Nature Human Behaviour](https://www.nature.com/nathumbehav/)
+
+For current rankings, see [Google Scholar's top HCI venues](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_humancomputerinteraction).
