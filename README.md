@@ -44,7 +44,7 @@ Principle 16 keeps a living list of preferred journals and conferences for citin
 
 ## Foundations: Tim Berners-Lee
 
-The web's inventor has argued for most of what this spec asks of agents. His key writing:
+[Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee), the web's inventor, has argued for most of what this spec asks of agents. His key writing:
 
 - [Information Management: A Proposal](https://www.w3.org/History/1989/proposal.html) (1989): the web began as a tool for sharing knowledge across a whole community, not a product.
 - [Principles of Design](https://www.w3.org/DesignIssues/Principles.html) (1998): simplicity, modularity, decentralization, and the principle of least power. These underlie Local-first (21) and Interoperability and exit (22).

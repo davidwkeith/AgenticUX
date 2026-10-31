@@ -54,7 +54,7 @@ Apps and websites SHOULD be fully accessible, meeting at least [WCAG 2.2](https:
 Agents SHOULD prefer the accessibility tree when it is available, and SHOULD report a barrier that blocks them as an accessibility barrier for people too.
 
 ## 16. Citing evidence
-Claims in this spec, and claims an agent makes to a person, SHOULD cite peer-reviewed work from respected venues, archived per principle 14. In HCI, the strongest work is often published at conferences rather than in journals.
+Claims in this spec, and claims an agent makes to a person, SHOULD cite peer-reviewed work from respected venues, archived per principle 14. In HCI, the strongest work is often published at conferences rather than in journals. For high-level, general information, [Wikipedia](https://en.wikipedia.org/) is a preferred source: it is open, widely reviewed, and links to the primary work behind it. For specific or contested claims, cite that primary work directly, as Wikipedia itself [advises](https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia).
 
 > **Living section.** This list is a starting point, not a canon. An external jury, independent of this project's maintainers, SHOULD regularly re-evaluate it, adding, removing, or re-ranking venues as the field changes. Last reviewed: 2026-10-31.
 
