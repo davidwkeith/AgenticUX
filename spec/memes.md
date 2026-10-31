@@ -37,3 +37,15 @@ Links go to Wikipedia where it has a page, and to the original work otherwise. M
 | 29 | Privacy in context | ["What happens here, stays here"](https://en.wikipedia.org/wiki/What_Happens_Here,_Stays_Here), the Las Vegas slogan | Information stays in the context it was shared. |
 | 30 | Nothing about us without us | ["Nothing About Us Without Us"](https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us), the disability rights rallying cry | The slogan is the meme. |
 | 31 | Creative partnership | ["Yes, and…"](https://en.wikipedia.org/wiki/Yes,_and...), the first rule of improv | Build on the idea before you judge it. |
+| 32 | No enshittification | "I am altering the deal. Pray I don't alter it any further." Darth Vader, [*The Empire Strikes Back*](https://en.wikipedia.org/wiki/The_Empire_Strikes_Back) | The anti-pattern: changing terms after lock-in. |
+| 33 | Cooperative ownership | The Bailey Building and Loan in [*It's a Wonderful Life*](https://en.wikipedia.org/wiki/It%27s_a_Wonderful_Life) | Owned by the community it serves, not by Mr. Potter. |
+| 34 | Free software | ["Information wants to be free"](https://en.wikipedia.org/wiki/Information_wants_to_be_free) | Run it, study it, change it, share it. |
+| 35 | Right to repair | [*MacGyver*](https://en.wikipedia.org/wiki/MacGyver) | Fix it yourself with what you have. |
+| 36 | Explanation and appeal | ["Computer says no"](https://en.wikipedia.org/wiki/Computer_says_no) | The anti-pattern: no reason, no appeal. |
+| 37 | No bossware | [Big Brother](https://en.wikipedia.org/wiki/Big_Brother_(Nineteen_Eighty-Four)), *Nineteen Eighty-Four* | The anti-pattern: watching workers. |
+| 38 | Right to disconnect | "Yeah, if you could come in on Saturday…" [*Office Space*](https://en.wikipedia.org/wiki/Office_Space) | The anti-pattern: work that never ends. |
+| 39 | Community data sovereignty | None, on purpose | A meme here should come from the communities themselves, not from this repo. |
+| 40 | Design justice | None, on purpose | Same reason: let the communities leading the design choose their own symbols. |
+| 41 | Mutual aid and the commons | [*Stone Soup*](https://en.wikipedia.org/wiki/Stone_Soup) | Everyone adds something; everyone eats. |
+| 42 | Sufficiency | [*WALL-E*](https://en.wikipedia.org/wiki/WALL-E) | The anti-pattern: more, bigger, forever. |
+| 43 | Care | "Look for the helpers." [Fred Rogers](https://en.wikipedia.org/wiki/Fred_Rogers) | Judge an agent by how it helps people care for each other. |

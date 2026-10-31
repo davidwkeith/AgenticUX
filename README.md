@@ -10,7 +10,7 @@ Early draft. Expect churn. Issues and PRs welcome.
 
 ## Contents
 
-[`spec/principles.md`](spec/principles.md) holds 31 draft principles, written in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119) language:
+[`spec/principles.md`](spec/principles.md) holds 43 draft principles, written in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119) language:
 
 1. [Minimal handoff phrases](spec/principles.md#1-minimal-handoff-phrases)
 2. [Legible intent](spec/principles.md#2-legible-intent)
@@ -43,6 +43,18 @@ Early draft. Expect churn. Issues and PRs welcome.
 29. [Privacy in context](spec/principles.md#29-privacy-in-context)
 30. [Nothing about us without us](spec/principles.md#30-nothing-about-us-without-us)
 31. [Creative partnership](spec/principles.md#31-creative-partnership)
+32. [No enshittification](spec/principles.md#32-no-enshittification)
+33. [Cooperative ownership](spec/principles.md#33-cooperative-ownership)
+34. [Free software](spec/principles.md#34-free-software)
+35. [Right to repair](spec/principles.md#35-right-to-repair)
+36. [Explanation and appeal](spec/principles.md#36-explanation-and-appeal)
+37. [No bossware](spec/principles.md#37-no-bossware)
+38. [Right to disconnect](spec/principles.md#38-right-to-disconnect)
+39. [Community data sovereignty](spec/principles.md#39-community-data-sovereignty)
+40. [Design justice](spec/principles.md#40-design-justice)
+41. [Mutual aid and the commons](spec/principles.md#41-mutual-aid-and-the-commons)
+42. [Sufficiency](spec/principles.md#42-sufficiency)
+43. [Care](spec/principles.md#43-care)
 
 [`spec/memes.md`](spec/memes.md) is a sidecar of pop culture references for each principle, for talks and social posts.
 
