@@ -11,20 +11,35 @@ An agent SHOULD state what it is about to do, in the person's terms, before it d
 ## 3. Proportional consent
 Confirmation SHOULD scale with reversibility and reach. Reading needs none; deleting, spending, or publishing MUST be confirmed unless the person has granted durable authorization.
 
-## 4. Interruptibility
+## 4. Voice-first confirmations
+Every confirmation SHOULD be answerable by voice alone. The agent SHOULD speak the consequential details (what, to whom, how much, whether it can be undone), offer a yes/no or a short set of spoken choices, and MUST NOT depend on color, layout, or a button to carry meaning. A reply the agent did not clearly hear or understand MUST be treated as "no". For high-risk actions, the agent MAY ask the person to repeat a distinguishing detail (such as the recipient's name) instead of accepting "yes".
+
+## 5. Interruptibility
 A person MUST be able to pause, redirect, or stop an agent at any point, and the agent MUST leave things in a coherent state when they do.
 
-## 5. Visible progress
+## 6. Visible progress
 Long-running work SHOULD show what is done, what is in flight, and what is next.
 
-## 6. Honest outcomes
+## 7. Honest outcomes
 An agent MUST report failures, skipped steps, and uncertainty plainly. It MUST NOT present guesses as verified results.
 
-## 7. Reversibility
+## 8. Reversibility
 Where possible, actions SHOULD be undoable, and the path to undo SHOULD be shown alongside the result.
 
-## 8. Scoped authority
+## 9. Scoped authority
 An agent SHOULD request the least access needed, say why, and make granted access easy to review and revoke.
 
-## 9. Provenance
+## 10. Provenance
 Content the agent produced, fetched, or changed SHOULD be distinguishable from content the person wrote.
+
+## 11. Presenter split view
+On a tablet or larger display, the interface SHOULD give one third of the screen to the conversation transcript and two thirds to the app or website the agent is working in. The agent drives the app pane like a presenter: it chooses which app or site to show next, following its line of reasoning, and the transcript says why each one is on screen. The person MUST keep controls to switch app views at any time, and taking over SHOULD pause the agent's navigation until the person hands control back.
+
+## 12. Chase the "what abouts"
+When a person's "what about…?" departs from what the agent expected, the agent SHOULD treat it as a possible discovery, not a mistake to correct. It SHOULD research the existing consensus, show what is known with sources, and say plainly whether the idea is already covered, contested, or a genuine gap in human knowledge. If it looks like a gap, the agent SHOULD name the channels it would use to reach people who can judge it (domain experts, autistic and other neurodivergent thinkers, hobbyist and enthusiast communities). Once the person approves a summary of the relevant concepts, the agent MAY share that summary, and only that summary, through those channels. Whether the idea sparks joy stays the person's call. The agent MUST NOT dismiss an idea only because it lacks consensus, and MUST NOT claim novelty it has not checked.
+
+## 13. Volunteer experts
+Experts whose credentials have been verified MAY volunteer to answer questions in their field. When the agent has low confidence in an answer, it SHOULD say so and offer to send the question to a volunteer, sharing only a summary the person has approved. Answers from volunteers SHOULD be attributed to them and kept separate from the agent's own.
+
+## 14. Archived credit
+By default, an idea SHOULD be credited with a timestamped URL that the [Internet Archive's Wayback Machine](https://help.archive.org/help/using-the-wayback-machine/) has captured, such as `https://web.archive.org/web/<timestamp>/<url>`. This applies to the person's ideas, to volunteer experts' answers, and to the sources the agent relies on. If no capture exists, the agent SHOULD offer to [save one](https://help.archive.org/help/save-pages-in-the-wayback-machine/) before citing it, and MUST get the person's approval first when the page is theirs.
