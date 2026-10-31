@@ -10,7 +10,7 @@ Early draft. Expect churn. Issues and PRs welcome.
 
 ## Contents
 
-[`spec/principles.md`](spec/principles.md) holds 24 draft principles, written in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119) language:
+[`spec/principles.md`](spec/principles.md) holds 25 draft principles, written in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119) language:
 
 1. [Minimal handoff phrases](spec/principles.md#1-minimal-handoff-phrases)
 2. [Legible intent](spec/principles.md#2-legible-intent)
@@ -36,8 +36,22 @@ Early draft. Expect churn. Issues and PRs welcome.
 22. [Interoperability and exit](spec/principles.md#22-interoperability-and-exit)
 23. [No dark patterns](spec/principles.md#23-no-dark-patterns)
 24. [Cost transparency](spec/principles.md#24-cost-transparency)
+25. [Works for you](spec/principles.md#25-works-for-you)
 
 Principle 16 keeps a living list of preferred journals and conferences for citing evidence, to be re-evaluated regularly by an external jury.
+
+## Foundations: Tim Berners-Lee
+
+The web's inventor has argued for most of what this spec asks of agents. His key writing:
+
+- [Information Management: A Proposal](https://www.w3.org/History/1989/proposal.html) (1989): the web began as a tool for sharing knowledge across a whole community, not a product.
+- [Principles of Design](https://www.w3.org/DesignIssues/Principles.html) (1998): simplicity, modularity, decentralization, and the principle of least power. These underlie Local-first (21) and Interoperability and exit (22).
+- [Long Live the Web](https://www.scientificamerican.com/article/long-live-the-web/) (Scientific American, 2010): universality, open standards, and neutrality against walled gardens. See Accessible by default (15) and Public AI (20).
+- [Contract for the Web](https://contractfortheweb.org/) (2019): shared commitments for governments, companies, and citizens to keep the web open, safe, and for everyone.
+- [Solid](https://solidproject.org/): personal data in Pods the person controls, shared only with consent. This is the model for Local-first (21) and Works for you (25).
+- [Charlie works for Bob](https://www.w3.org/DesignIssues/Charlie.html) (2017) and [Charlie Works](https://www.w3.org/DesignIssues/Works.html) (2025): an AI that works for its user, not a platform, built on a Solid Pod with per-use consent. This is the source of Works for you (25).
+- [Why I gave the world wide web away for free](https://www.theguardian.com/technology/2025/sep/28/why-i-gave-the-world-wide-web-away-for-free) (The Guardian, 2025): the web works only if it works for everyone, and AI needs not-for-profit, CERN-like institutions. See Public AI (20).
+- [This Is for Everyone](https://www.panmacmillan.com/authors/tim-berners-lee/this-is-for-everyone/9781035023677) (2025): his memoir and "unfinished story" of the web, and [his case for controlling AI](https://panmacmillan.com/blogs/general/tim-berners-lee-on-ai) rather than fearing it.
 
 ## Prior art
 
