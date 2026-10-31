@@ -1,0 +1,9 @@
+title: AgenticUX
+description: Human Interface Guidelines for agentic user interfaces
+lang: en
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
