@@ -38,6 +38,8 @@ Early draft. Expect churn. Issues and PRs welcome.
 24. [Cost transparency](spec/principles.md#24-cost-transparency)
 25. [Works for you](spec/principles.md#25-works-for-you)
 
+[`spec/memes.md`](spec/memes.md) is a sidecar of pop culture references for each principle, for talks and social posts.
+
 Principle 16 keeps a living list of preferred journals and conferences for citing evidence, to be re-evaluated regularly by an external jury.
 
 ## Foundations: Tim Berners-Lee
