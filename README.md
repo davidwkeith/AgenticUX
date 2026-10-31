@@ -10,7 +10,7 @@ Early draft. Expect churn. Issues and PRs welcome.
 
 ## Contents
 
-[`spec/principles.md`](spec/principles.md) holds 25 draft principles, written in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119) language:
+[`spec/principles.md`](spec/principles.md) holds 26 draft principles, written in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119) language:
 
 1. [Minimal handoff phrases](spec/principles.md#1-minimal-handoff-phrases)
 2. [Legible intent](spec/principles.md#2-legible-intent)
@@ -37,6 +37,7 @@ Early draft. Expect churn. Issues and PRs welcome.
 23. [No dark patterns](spec/principles.md#23-no-dark-patterns)
 24. [Cost transparency](spec/principles.md#24-cost-transparency)
 25. [Works for you](spec/principles.md#25-works-for-you)
+26. [Craftsman style](spec/principles.md#26-craftsman-style)
 
 [`spec/memes.md`](spec/memes.md) is a sidecar of pop culture references for each principle, for talks and social posts.
 

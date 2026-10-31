@@ -31,3 +31,4 @@ Links go to Wikipedia where it has a page, and to the original work otherwise. M
 | 23 | No dark patterns | "It's a trap!" [Admiral Ackbar](https://en.wikipedia.org/wiki/Admiral_Ackbar) | Name the trap. |
 | 24 | Cost transparency | "The power is yours!" [*Captain Planet*](https://en.wikipedia.org/wiki/Captain_Planet_and_the_Planeteers) | Show the planet what a task costs. |
 | 25 | Works for you | [Alfred Pennyworth](https://en.wikipedia.org/wiki/Alfred_Pennyworth), not [HAL 9000](https://en.wikipedia.org/wiki/HAL_9000) | Loyal to you, not the mission. "I'm sorry, Dave" is the anti-pattern. |
+| 26 | Craftsman style | "Have nothing in your houses that you do not know to be useful, or believe to be beautiful." [William Morris](https://en.wikipedia.org/wiki/William_Morris) | Every pixel earns its place; the hearth gets the spotlight. |
