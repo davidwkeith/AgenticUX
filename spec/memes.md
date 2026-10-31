@@ -43,7 +43,7 @@ Links go to Wikipedia where it has a page, and to the original work otherwise. M
 | 35 | Right to repair | [*MacGyver*](https://en.wikipedia.org/wiki/MacGyver) | Fix it yourself with what you have. |
 | 36 | Explanation and appeal | ["Computer says no"](https://en.wikipedia.org/wiki/Computer_says_no) | The anti-pattern: no reason, no appeal. |
 | 37 | No bossware | [Big Brother](https://en.wikipedia.org/wiki/Big_Brother_(Nineteen_Eighty-Four)), *Nineteen Eighty-Four* | The anti-pattern: watching workers. |
-| 38 | Right to disconnect | "Yeah, if you could come in on Saturday…" [*Office Space*](https://en.wikipedia.org/wiki/Office_Space) | The anti-pattern: work that never ends. |
+| 38 | Right to disconnect | Lumbergh asking Peter to come in on Saturday, [*Office Space*](https://en.wikipedia.org/wiki/Office_Space) | The anti-pattern: work that never ends. |
 | 39 | Community data sovereignty | None, on purpose | A meme here should come from the communities themselves, not from this repo. |
 | 40 | Design justice | None, on purpose | Same reason: let the communities leading the design choose their own symbols. |
 | 41 | Mutual aid and the commons | [*Stone Soup*](https://en.wikipedia.org/wiki/Stone_Soup) | Everyone adds something; everyone eats. |
