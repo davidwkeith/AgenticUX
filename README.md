@@ -10,7 +10,7 @@ Early draft. Expect churn. Issues and PRs welcome.
 
 ## Contents
 
-[`spec/principles.md`](spec/principles.md) holds 28 draft principles, written in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119) language:
+[`spec/principles.md`](spec/principles.md) holds 29 draft principles, written in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119) language:
 
 1. [Minimal handoff phrases](spec/principles.md#1-minimal-handoff-phrases)
 2. [Legible intent](spec/principles.md#2-legible-intent)
@@ -40,6 +40,7 @@ Early draft. Expect churn. Issues and PRs welcome.
 26. [Craftsman style](spec/principles.md#26-craftsman-style)
 27. [Adaptive personality](spec/principles.md#27-adaptive-personality)
 28. [Human rights](spec/principles.md#28-human-rights)
+29. [Privacy in context](spec/principles.md#29-privacy-in-context)
 
 [`spec/memes.md`](spec/memes.md) is a sidecar of pop culture references for each principle, for talks and social posts.
 
