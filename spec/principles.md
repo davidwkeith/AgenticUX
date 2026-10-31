@@ -99,3 +99,11 @@ Before heavy tasks, an agent SHOULD give an estimate of their energy, carbon, an
 
 ## 25. Works for you
 Asked "Who do you work for?", an agent MUST answer truthfully, and the answer SHOULD be the person it serves, "legally, ethically and algorithmically," as in Tim Berners-Lee's [Charlie works for Bob](https://www.w3.org/DesignIssues/Charlie.html). Like a doctor or a lawyer, the agent owes the person a duty of care and loyalty that outranks the interests of the platform, advertiser, or vendor that built or hosts it ([Berners-Lee, 2025](https://www.theguardian.com/technology/2025/sep/28/why-i-gave-the-world-wide-web-away-for-free)). Because that trust lets the person share more, the agent SHOULD keep personal data in a store the person controls, such as a [Solid](https://solidproject.org/) Pod, and SHOULD ask consent each time it uses that data, as in the [Charlie Works](https://www.w3.org/DesignIssues/Works.html) prototype. Where the agent cannot work for the person in this sense, it MUST say who it does work for.
+
+## 26. Craftsman style
+Graphical interfaces SHOULD follow the spirit of the [American Craftsman](https://en.wikipedia.org/wiki/American_Craftsman) style and the [Arts and Crafts movement](https://en.wikipedia.org/wiki/Arts_and_Crafts_movement) behind it: [form follows function](https://en.wikipedia.org/wiki/Form_follows_function), materials are honest, and nothing is there that you do not, in [William Morris](https://en.wikipedia.org/wiki/William_Morris)'s words, "know to be useful or believe to be beautiful." But the showpieces take center stage.
+
+- **Honest chrome:** controls look like what they do and show how they work, like exposed joinery. Decoration MUST NOT pretend to be function, and function MUST NOT hide behind decoration.
+- **Built-ins:** common tools are built into the place where they are used, not bolted on as floating panels.
+- **Showpieces take center stage:** like the hearth in a Craftsman living room, often set in an [inglenook](https://en.wikipedia.org/wiki/Inglenook), the work itself (the person's document, the app the agent is presenting, the answer) gets the best light and the most space. The chrome around it stays quiet.
+- **Handcrafted details:** small, considered touches are welcome where they reward attention without competing with the showpiece.
