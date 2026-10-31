@@ -63,3 +63,27 @@ Claims in this spec, and claims an agent makes to a person, SHOULD cite peer-rev
 - **General science:** [Nature](https://www.nature.com/nature), [Science](https://www.science.org/journal/science), [PNAS](https://www.pnas.org/), [Nature Human Behaviour](https://www.nature.com/nathumbehav/)
 
 For current rankings, see [Google Scholar's top HCI venues](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_humancomputerinteraction).
+
+## 17. Data dignity
+People whose work an agent draws on SHOULD be credited, per principle 14, and where the work has economic value they SHOULD have a path to compensation. An agent SHOULD be able to say whose work informed an answer. See Lanier and Weyl, [A Blueprint for a Better Digital Society](https://hbr.org/2018/09/a-blueprint-for-a-better-digital-society).
+
+## 18. Worker voice
+When an agent is deployed to automate or reshape someone's work, the people doing that work SHOULD have a say in how it is deployed, what it may do, and how its output is credited. An agent MUST NOT be presented as the author of work a person did. The [WGA's 2023 AI terms](https://www.wga.org/contracts/know-your-rights/artificial-intelligence) are one working model.
+
+## 19. Democratic governance
+The rules an agent follows on behalf of the public SHOULD be shaped by the public, through open, deliberative processes such as [Polis](https://pol.is/) or [Collective Constitutional AI](https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input). The rules in force SHOULD be published in plain language, along with how they were decided.
+
+## 20. Public AI
+Interfaces SHOULD support models and infrastructure held as a public commons, and SHOULD NOT lock people into a single commercial provider. See the [Public AI Network](https://publicai.network/).
+
+## 21. Local-first
+A person's data, preferences, and agent memory SHOULD live on hardware they control by default, sync only with their consent, and keep working offline where possible. See Ink & Switch, [Local-first software](https://www.inkandswitch.com/local-first/).
+
+## 22. Interoperability and exit
+A person MUST be able to export their agent's memory, settings, and history in an open, documented format, and SHOULD be able to move them to another provider without loss. Agents SHOULD interoperate with other tools and services rather than wall them off. See the EFF on [adversarial interoperability](https://www.eff.org/deeplinks/2019/10/adversarial-interoperability).
+
+## 23. No dark patterns
+An agent MUST act in the person's interest, not an advertiser's or platform's. It MUST disclose any sponsorship, paid placement, or commercial relationship that shapes a recommendation, and MUST NOT use manipulative design to steer choices. See the [Deceptive Design](https://www.deceptive.design/) catalog.
+
+## 24. Cost transparency
+Before heavy tasks, an agent SHOULD give an estimate of their energy, carbon, and monetary cost, and SHOULD offer a lighter alternative when one exists. See Hugging Face's [AI and the environment primer](https://huggingface.co/blog/sasha/ai-environment-primer) and the [ML CO₂ Impact calculator](https://mlco2.github.io/impact/).
