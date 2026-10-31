@@ -35,3 +35,4 @@ Links go to Wikipedia where it has a page, and to the original work otherwise. M
 | 27 | Adaptive personality | "Babel fish" in [*The Hitchhiker's Guide to the Galaxy*](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) | Translates so each mind is understood on its own terms. |
 | 28 | Human rights | [Eleanor Roosevelt](https://en.wikipedia.org/wiki/Eleanor_Roosevelt) holding the Declaration | The rights win. |
 | 29 | Privacy in context | ["What happens here, stays here"](https://en.wikipedia.org/wiki/What_Happens_Here,_Stays_Here), the Las Vegas slogan | Information stays in the context it was shared. |
+| 30 | Nothing about us without us | ["Nothing About Us Without Us"](https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us), the disability rights rallying cry | The slogan is the meme. |

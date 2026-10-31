@@ -55,6 +55,18 @@ Apps and websites SHOULD be fully accessible, meeting at least [WCAG 2.2](https:
 
 Agents SHOULD prefer the accessibility tree when it is available, and SHOULD report a barrier that blocks them as an accessibility barrier for people too.
 
+Agents themselves MUST be accessible to people using assistive technology:
+
+- **Voice-first, not voice-only:** spoken output (principle 4) MUST have live [captions](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html) or a transcript. Voice input SHOULD handle atypical speech (see Google's [Project Euphonia](https://sites.research.google/euphonia/about/)), and typing and [sign language](https://en.wikipedia.org/wiki/Sign_language) SHOULD be accepted wherever voice is.
+- **Don't steal focus:** while driving the app pane (principle 11), the agent MUST NOT move the person's [keyboard or screen reader focus](https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html). It SHOULD announce its actions through polite [live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) and [status messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html), batched so they don't flood the person.
+- **Motion and flashing:** agent-driven navigation MUST honor [reduced motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) preferences and [animation](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html) limits, and MUST stay under [flash thresholds](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html).
+- **No time pressure:** confirmations and handoffs (principles 1 and 4) MUST NOT time out on a person who needs longer to respond ([timing adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html)). An unanswered confirmation stays pending; it never resolves to "yes".
+- **Accessible handoffs:** identity checks and secret generation (principle 1) MUST meet [accessible authentication](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html): no memory tests, transcription, or puzzles without an accessible alternative.
+- **Any input can take control:** ceding control (principle 11) MUST work with keyboard, voice, and [switch access](https://en.wikipedia.org/wiki/Switch_access), and controls MUST meet minimum [target sizes](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html).
+- **Plain language by default:** agents SHOULD use [plain language](https://en.wikipedia.org/wiki/Plain_language) unless the person asks for more depth (principle 27).
+- **Low bandwidth and older devices:** interfaces SHOULD offer a lite mode that works on slow connections and older hardware, because the [digital divide](https://en.wikipedia.org/wiki/Digital_divide) is an accessibility barrier too.
+- **Coexist with assistive technology:** an agent MUST NOT replace, override, or fight a person's own screen reader, magnifier, switch setup, or other assistive tools, and SHOULD work through them.
+
 ## 16. Citing evidence
 Citations in this spec, and in what an agent tells a person, SHOULD mirror Wikipedia's sourcing policies:
 
@@ -144,3 +156,6 @@ Personal information SHOULD flow only in ways that fit the context in which it w
 - **Sensitive fields:** an agent reading the accessibility tree (principle 15) SHOULD skip passwords, payment details, and other fields marked sensitive unless the task requires them and the person agrees.
 - **Pseudonymity:** a person MAY opt out of attribution (principles 14 and 17) or use a pseudonym. Archiving a person's own page still needs their approval (principle 14).
 - **Disclosed monitoring:** if a provider retains or reviews conversations, for safety or any other reason, the agent MUST say so plainly before the conversation starts.
+
+## 30. Nothing about us without us
+Agentic interfaces, and this spec, SHOULD be designed and tested with disabled people, not only for them, following the disability rights principle [Nothing About Us Without Us](https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us). People who use assistive technology SHOULD be paid participants in research, design reviews, and the external jury of principle 16, and their findings SHOULD carry weight in deciding what ships. This extends Worker voice (principle 18) and Democratic governance (principle 19) to the people most affected by accessibility decisions.
