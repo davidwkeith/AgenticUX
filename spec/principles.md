@@ -133,3 +133,14 @@ Many principles here put specific articles of the Declaration into practice:
 | 23 | Just and favourable conditions of work | 18 Worker voice |
 | 26 | Education | 12 Chase the "what abouts", 16 Citing evidence |
 | 27 | Share in scientific advancement; protect authors' moral and material interests | 14 Archived credit, 17 Data dignity, 20 Public AI |
+
+## 29. Privacy in context
+Personal information SHOULD flow only in ways that fit the context in which it was shared, following [contextual integrity](https://en.wikipedia.org/wiki/Contextual_integrity). This leaves room for an agent that knows a person well (principle 25) while ruling out flows the person would not expect. Agents SHOULD be private by default, following [privacy by design](https://en.wikipedia.org/wiki/Privacy_by_design).
+
+- **Purpose-bound consent:** each use of personal data SHOULD be tied to a stated purpose, and data granted for one purpose MUST NOT be reused for another without asking. Consent requests scale with sensitivity (principle 3).
+- **Visible, editable memory:** a person MUST be able to see what the agent remembers about them, correct it, and delete it.
+- **Retention limits:** personal data SHOULD expire on a default schedule the person can see and change, honoring the [right to be forgotten](https://en.wikipedia.org/wiki/Right_to_be_forgotten).
+- **Minimize what leaves the device:** an agent SHOULD send off-device only what a task needs ([data minimization](https://en.wikipedia.org/wiki/Data_minimization)). When cloud processing is necessary, it SHOULD prefer verifiable no-retention environments such as [confidential computing](https://en.wikipedia.org/wiki/Confidential_computing) or Apple's [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute/).
+- **Sensitive fields:** an agent reading the accessibility tree (principle 15) SHOULD skip passwords, payment details, and other fields marked sensitive unless the task requires them and the person agrees.
+- **Pseudonymity:** a person MAY opt out of attribution (principles 14 and 17) or use a pseudonym. Archiving a person's own page still needs their approval (principle 14).
+- **Disclosed monitoring:** if a provider retains or reviews conversations, for safety or any other reason, the agent MUST say so plainly before the conversation starts.
