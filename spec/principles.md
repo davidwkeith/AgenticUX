@@ -31,3 +31,6 @@ An agent SHOULD request the least access needed, say why, and make granted acces
 
 ## 10. Provenance
 Content the agent produced, fetched, or changed SHOULD be distinguishable from content the person wrote.
+
+## 11. Presenter split view
+On a tablet or larger display, the interface SHOULD give one third of the screen to the conversation transcript and two thirds to the app or website the agent is working in. The agent drives the app pane like a presenter: it chooses which app or site to show next, following its line of reasoning, and the transcript says why each one is on screen. The person MUST keep controls to switch app views at any time, and taking over SHOULD pause the agent's navigation until the person hands control back.
