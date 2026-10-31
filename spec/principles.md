@@ -54,7 +54,16 @@ Apps and websites SHOULD be fully accessible, meeting at least [WCAG 2.2](https:
 Agents SHOULD prefer the accessibility tree when it is available, and SHOULD report a barrier that blocks them as an accessibility barrier for people too.
 
 ## 16. Citing evidence
-Claims in this spec, and claims an agent makes to a person, SHOULD cite peer-reviewed work from respected venues, archived per principle 14. In HCI, the strongest work is often published at conferences rather than in journals. For high-level, general information, [Wikipedia](https://en.wikipedia.org/) is a preferred source: it is open, widely reviewed, and links to the primary work behind it. For specific or contested claims, cite that primary work directly, as Wikipedia itself [advises](https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia).
+Citations in this spec, and in what an agent tells a person, SHOULD mirror Wikipedia's sourcing policies:
+
+- **[Verifiability](https://en.wikipedia.org/wiki/Wikipedia:Verifiability):** any claim a reader might challenge SHOULD carry an [inline citation](https://en.wikipedia.org/wiki/Wikipedia:Inline_citation) to a published source they can check. Unsupported claims are marked [[citation needed]](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed) or removed.
+- **[Reliable sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources):** prefer independent sources with editorial oversight, such as the venues below. Wikipedia's [perennial sources](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources/Perennial_sources) list is a quick check on an outlet.
+- **[Primary, secondary, and tertiary sources](https://en.wikipedia.org/wiki/Wikipedia:No_original_research#Primary,_secondary_and_tertiary_sources):** prefer secondary sources for interpretation, primary sources for plain facts, and tertiary sources, Wikipedia included, for high-level overviews. For specific or contested claims, cite the primary work rather than Wikipedia, as Wikipedia itself [advises](https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia).
+- **[No original research](https://en.wikipedia.org/wiki/Wikipedia:No_original_research):** an agent MUST NOT present its own synthesis as established fact. New ideas (principle 12) are labeled as new, not passed off as sourced.
+- **[Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view):** where reliable sources disagree, represent the significant views in proportion to their weight.
+- **[Link rot](https://en.wikipedia.org/wiki/Wikipedia:Link_rot):** pair every web citation with an archived copy, per principle 14.
+
+See Wikipedia's [Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources) guideline for formatting. In HCI, the strongest work is often published at conferences rather than in journals.
 
 > **Living section.** This list is a starting point, not a canon. An external jury, independent of this project's maintainers, SHOULD regularly re-evaluate it, adding, removing, or re-ranking venues as the field changes. Last reviewed: 2026-10-31.
 
